@@ -17,30 +17,54 @@
     <header id="top" class="row col-md-12">
       <div class="page-header">
         <h1>My cheat sheet !
-          <img src="imght.png" alt="image html" height="100px" class="pull-right">
+          <img src="imght.png" alt="image html" id="img" class="pull-right">
         </h1>
       </div>
     </header>
     <!-- <div class="row col-md-12"> -->
     <!-- <div class="sidebar"> -->
-    <nav id="slide" class="col-md-2 xs-2 sm-2 lg-2 navbar navbar-default" align="center">
+    <nav id="slide" class="col-md-2 xs-2 sm-2 lg-2 navbar navbar-default">
       <ul class="nav nav-pills nav-stacked">
-        <li><a href="#return"><span class="glyphicon glyphicon-ok-sign" style="color: #009688;">La base d'une page HTML</a></li>
-        <li><a href="#haut"><span class="glyphicon glyphicon-ok-sign" style="color: #009688;">Les balises d'en-tete</a></li>
-        <li><a href="#tex"><span class="glyphicon glyphicon-ok-sign" style="color: #009688;">Les balises texte</a></li>
-        <li><a href="#Lis"><span class="glyphicon glyphicon-ok-sign" style="color: #009688;">Les balises de listes</a></li>
-        <li><a href="#tab"><span class="glyphicon glyphicon-ok-sign" style="color: #009688;">Les balises tableaux</a></li>
-        <li><a href="#formu"><span class="glyphicon glyphicon-ok-sign" style="color: #009688;">Les balises de formulaire</a></li>
-        <li><a href="#sect"><span class="glyphicon glyphicon-ok-sign" style="color: #009688;">Les balises pour organiser le site</a></li>
-        <li><a href="#univ"><span class="glyphicon glyphicon-ok-sign" style="color: #009688;">Les balises sans sens sémantiques (balises génériques)</a></li>
+        <li>
+          <a href="#return">
+            <span class="glyphicon glyphicon-ok-sign" style="color: #009688;">La base d'une page HTML</a>
+        </li>
+        <li>
+          <a href="#haut">
+            <span class="glyphicon glyphicon-ok-sign" style="color: #009688;">Les balises d'en-tete</a>
+        </li>
+        <li>
+          <a href="#tex">
+            <span class="glyphicon glyphicon-ok-sign" style="color: #009688;">Les balises texte</a>
+        </li>
+        <li>
+          <a href="#Lis">
+            <span class="glyphicon glyphicon-ok-sign" style="color: #009688;">Les balises de listes</a>
+        </li>
+        <li>
+          <a href="#tab">
+            <span class="glyphicon glyphicon-ok-sign" style="color: #009688;">Les balises tableaux</a>
+        </li>
+        <li>
+          <a href="#formu">
+            <span class="glyphicon glyphicon-ok-sign" style="color: #009688;">Les balises de formulaire</a>
+        </li>
+        <li>
+          <a href="#sect">
+            <span class="glyphicon glyphicon-ok-sign" style="color: #009688;">Les balises pour organiser le site</a>
+        </li>
+        <li>
+          <a href="#univ">
+            <span class="glyphicon glyphicon-ok-sign" style="color: #009688;">Les balises sans sens sémantiques (balises génériques)</a>
+        </li>
       </ul>
     </nav>
     <!-- </div> -->
     <section id="contenu" class="col-md-10">
       <div class="panel panel-default">
         <h1 id="return">La base d'une page web</h1>
-        <table class="table table-bordered table-striped table-responsive">
-          <div class="panel-heading">
+        <table class="table table-bordered table-striped">
+          <!-- <div class="panel-heading"> -->
             <h1 class="panel-title">Squelette d'une page HTML</h1>
             <thead>
 
@@ -63,7 +87,7 @@
                 <td>Corps de la page</td>
               </tr>
             </tbody>
-          </div>
+          <!-- </div> -->
         </table>
       </div>
 
@@ -215,147 +239,150 @@
               </tr>
             </tbody>
             <table>
+          </div>
+          <table class="table table-bordered table-striped table-responsive">
+            <div class="panel-heading">
+              <h1 class="panel-title" id="Lis">Les balises de liste</h1>
+
+              <thead>
+                <tr>
+                  <th>Balise</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ul</td>
+                  <td>Liste à puces, non numérotée</td>
+                </tr>
+                <tr>
+                  <td>ol</td>
+                  <td>Liste numérotée</td>
+                </tr>
+                <tr>
+                  <td>li</td>
+                  <td>élément de liste</td>
+                </tr>
+                <tr>
+                  <td>dl</td>
+                  <td>lise de définition</td>
+                </tr>
+                <tr>
+                  <td>td</td>
+                  <td>créer une cellule de donnée</td>
+                </tr>
+                <tr>
+                  <td>dd</td>
+                  <td>définition/td>
+                </tr>
+              </tbody>
             </div>
-              <table class="table table-bordered table-striped table-responsive">
-                <div class="panel-heading">
-                  <h1 class="panel-title" id="Lis">Les balises de liste</h1>
+            <table>
+              <table>
+                <table class="table table-bordered table-striped table-responsive">
+                  <div class="panel-heading">
+                    <h1 class="panel-title" id="formu">Les balises de formulaire</h1>
 
-                  <thead>
-                    <tr>
-                      <th>Balise</th>
-                      <th>Description</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>ul</td>
-                      <td>Liste à puces, non numérotée</td>
-                    </tr>
-                    <tr>
-                      <td>ol</td>
-                      <td>Liste numérotée</td>
-                    </tr>
-                    <tr>
-                      <td>li</td>
-                      <td>élément de liste</td>
-                    </tr>
-                    <tr>
-                      <td>dl</td>
-                      <td>lise de définition</td>
-                    </tr>
-                    <tr>
-                      <td>td</td>
-                      <td>créer une cellule de donnée</td>
-                    </tr>
-                    <tr>
-                      <td>dd</td>
-                      <td>définition/td>
-                    </tr>
-                  </tbody>
-                </div>
+                    <thead>
+                      <tr>
+                        <th>Balise</th>
+                        <th>Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>form</td>
+                        <td>permet de créer un formulaire</td>
+                      </tr>
+                      <tr>
+                        <td>fieldset</td>
+                        <td>permet de créer un groupe de champs</td>
+                      </tr>
+                      <tr>
+                        <td>label</td>
+                        <td>Libellé d'un champ</td>
+                      </tr>
+                      <tr>
+                        <td>input</td>
+                        <td>Champ de formulaire (texte, mot de passe, case à cocher, bouton, etc.)</td>
+                      </tr>
+                      <tr>
+                        <td>legend</td>
+                        <td>Titre d'un groupe de champs</td>
+                      </tr>
+                      <tr>
+                        <td>select</td>
+                        <td>liste déroulante</td>
+                      </tr>
+                    </tbody>
+                  </div>
                   <table>
-                    <table>
-                      <table class="table table-bordered table-striped table-responsive">
-                        <div class="panel-heading">
-                          <h1 class="panel-title" id="formu">Les balises de formulaire</h1>
+                    <table class="table table-bordered table-hover table-responsive">
+                      <div class="panel-heading">
+                        <h1 class="panel-title" id="sect">Les balises permettant d'organiser son site</h1>
 
-                          <thead>
-                            <tr>
-                              <th>Balise</th>
-                              <th>Description</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>form</td>
-                              <td>permet de créer un formulaire</td>
-                            </tr>
-                            <tr>
-                              <td>fieldset</td>
-                              <td>permet de créer un groupe de champs</td>
-                            </tr>
-                            <tr>
-                              <td>label</td>
-                              <td>Libellé d'un champ</td>
-                            </tr>
-                            <tr>
-                              <td>input</td>
-                              <td>Champ de formulaire (texte, mot de passe, case à cocher, bouton, etc.)</td>
-                            </tr>
-                            <tr>
-                              <td>legend</td>
-                              <td>Titre d'un groupe de champs</td>
-                            </tr>
-                            <tr>
-                              <td>select</td>
-                              <td>liste déroulante</td>
-                            </tr>
-                          </tbody>
-                        </div>
-                          <table>
-                            <table class="table table-bordered table-hover table-responsive">
-                              <div class="panel-heading">
-                                <h1 class="panel-title" id="sect">Les balises permettant d'organiser son site</h1>
+                        <thead>
+                          <tr>
+                            <th>Balise</th>
+                            <th>Description</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>head</td>
+                            <td>En-tete</td>
+                          </tr>
+                          <tr>
+                            <td>nav</td>
+                            <td>liens principaux de navigation</td>
+                          </tr>
+                          <tr>
+                            <td>section</td>
+                            <td>contenu de page</td>
+                          </tr>
+                          <tr>
+                            <td>article</td>
+                            <td>article (contenu autonome)</td>
+                          </tr>
+                          <tr>
+                            <td>aside</td>
+                            <td>bloc complémentaire à la section ou l'article</td>
+                          </tr>
+                          <tr>
+                            <td>footer</td>
+                            <td>Pied de page</td>
+                          </tr>
+                        </tbody>
 
-                                <thead>
-                                  <tr>
-                                    <th>Balise</th>
-                                    <th>Description</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td>head</td>
-                                    <td>En-tete</td>
-                                  </tr>
-                                  <tr>
-                                    <td>nav</td>
-                                    <td>liens principaux de navigation</td>
-                                  </tr>
-                                  <tr>
-                                    <td>section</td>
-                                    <td>contenu de page</td>
-                                  </tr>
-                                  <tr>
-                                    <td>article</td>
-                                    <td>article (contenu autonome)</td>
-                                  </tr>
-                                  <tr>
-                                    <td>aside</td>
-                                    <td>bloc complémentaire à la section ou l'article</td>
-                                  </tr>
-                                  <tr>
-                                    <td>footer</td>
-                                    <td>Pied de page</td>
-                                  </tr>
-                                </tbody>
+                      </div>
+                    </table>
+                    <h1 id="univ">Les balises universelles</h1>
+                    <dl class="dl-horizontal">
+                      <dt>div</dt>
+                      <dd>Balise générique de type bloc.</dd>
+                      <dd>donne un nom à la balise. Ce nom doit être unique sur toute la page car il permet d'identifier la balise. Vous pouvez vous servir de l'ID pour de nombreuses choses, par exemple pour créer un lien vers une ancre, pour un style CSS
+                        de type ID, pour des manipulations en JavaScript, etc.</dd>
+                      <dt>span</dt>
+                      <dd>Balise générique de type inline</dd>
+                      <dt>id</dt>
+                      <dd>donne un nom à la balise. Ce nom doit être unique sur toute la page car il permet d'identifier la balise. Vous pouvez vous servir de l'ID pour de nombreuses choses, par exemple pour créer un lien vers une ancre, pour un style CSS
+                        de type ID, pour des manipulations en JavaScript, etc.</dd>
 
-                              </div>
-                            </table>
-                            <h1 id="univ">Les balises universelles</h1>
-                            <dl class="dl-horizontal">
-                            <dt>div</dt>
-                            <dd>Balise générique de type bloc.</dd>
-                            <dd>donne un nom à la balise. Ce nom doit être unique sur toute la page car il permet d'identifier la balise. Vous pouvez vous servir de l'ID pour de nombreuses choses, par exemple pour créer un lien vers une ancre, pour un style CSS de type ID, pour des manipulations en JavaScript, etc.</dd>
-                            <dt>span</dt>
-                            <dd>Balise générique de type inline</dd>
-                            <dt>id</dt>
-                            <dd>donne un nom à la balise. Ce nom doit être unique sur toute la page car il permet d'identifier la balise. Vous pouvez vous servir de l'ID pour de nombreuses choses, par exemple pour créer un lien vers une ancre, pour un style CSS de type ID, pour des manipulations en JavaScript, etc.</dd>
+                      <dt>style</dt>
+                      <dd>cet attribut vous permet d'indiquer directement le code CSS à appliquer. Vous n'êtes donc pas obligés d'avoir une feuille de style à part, vous pouvez mettre directement les attributs CSS.
+                        <br> Néanmoins il est préférable d'utiliser une feuille CSS externe --> facile à modifier dans l'avenir.</dd>
+                      <dt>class</dt>
+                      <dd>indique le nom de la classe CSS à utiliser</dd>
+                      </ul>
 
-                            <dt>style</dt>
-                            <dd>cet attribut vous permet d'indiquer directement le code CSS à appliquer. Vous n'êtes donc pas obligés d'avoir une feuille de style à part, vous pouvez mettre directement les attributs CSS.<br>
-                            Néanmoins il est préférable d'utiliser une feuille CSS externe --> facile à modifier dans l'avenir.</dd>
-                            <dt>class</dt>
-                            <dd>indique le nom de la classe CSS à utiliser</dd>
-                            </ul>
-
-                        </div>
-                        <footer class="container-fluid footr text-right">
-                          <p>By a girl<img src="logo_naim1.png" alt="logo nai" width="10%"</p>
-                        </footer>
+  </div>
+  <footer class="container-fluid footr text-right">
+    <p>By a girl
+      <img src="logo_naim1.png" alt="logo nai" width="10%" </p>
+  </footer>
 
 
-              <!-- <footer class="fin">
+  <!-- <footer class="fin">
                     <div class="panel callout">
                         <p>By a girl</p>
                     </div>
