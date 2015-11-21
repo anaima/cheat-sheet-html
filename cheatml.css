@@ -17,6 +17,7 @@ background-color: #eceff1;
 #img{
    height:100px;
 }
+/*l'ensemble des tabs*/
 #contenu {
   padding-right: 15px;
   padding-left: 15px;
@@ -30,11 +31,18 @@ background-color: #eceff1;
 {
   background-color: #ff7043;
 }
+/*dernier tableau fait d'une manière différente*/
+.univ {
+    background-color: #ff7043;
+    border-radius: 1px solid orange;
+}
+
 /*le footer*/
 .footr {
     background-color: #2f2f2f;
     color: #ffffff;
 }
+/*on garde la nav slide en position fixed pour les tablettes*/
 @media screen and (max-width 768px){
   /*la nav*/
   #slide {
