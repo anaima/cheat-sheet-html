@@ -1,0 +1,43 @@
+body {
+margin: 0 auto;
+
+background-color: #eceff1;
+}
+
+/*la nav*/
+#slide {
+  position:fixed;
+  display: block;
+  margin: 100px 0 0 0;
+  }
+.fin p {
+  text-align: right;
+  margin-right: 35px;
+}
+
+#contenu {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 50px;
+  margin-left: 20%;
+  position: relative;
+}
+
+/*les titres des tableaux sont surlignés*/
+#sect, #formu, #Lis, #tab, #tex, #haut, #return
+{
+  background-color: #ff7043;
+}
+/*le footer*/
+.footr {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+@media screen and (max-width 768px){
+  /*la nav*/
+  #slide {
+    position:fixed;
+    display: block;
+    margin: 50px 0 0 0;
+    }
+}
